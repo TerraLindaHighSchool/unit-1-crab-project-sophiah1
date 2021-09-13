@@ -57,7 +57,7 @@ public class Crab extends Actor
               // Winning the game
               if(getWorld().getObjects(worm.class).size()==0)
             {
-               Greenfoot.setWorld(new Winsplash());
+               //Greenfoot.setWorld(new Winsplash());
                Greenfoot.playSound("fanfare.wav");
                Greenfoot.stop();
             }
